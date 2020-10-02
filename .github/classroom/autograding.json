@@ -24,7 +24,7 @@
       "name": "Task 2b",
       "setup": "",
       "run": "python3 task2.py",
-      "input": "Shaq",
+      "input": "Shaq\r\n",
       "output": "That name is on the list",
       "comparison": "included",
       "timeout": 1,
