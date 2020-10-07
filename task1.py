@@ -17,3 +17,11 @@ example:
 Enter number:4
 4 8 12 16 20 24 28 32 36 40 44 48
 """
+num = int(input("Enter number: "))
+
+nums = [str(num*1), str(num*2), str(num*3), str(num*4), str(num*5), str(num*6), str(num*7), str(num*8), str(num*9), str(num*10), str(num*11), str(num*12)]
+
+
+
+for i in nums:
+    print(i)
