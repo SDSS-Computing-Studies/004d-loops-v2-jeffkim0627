@@ -22,6 +22,7 @@ num = int(input("Enter number: "))
 nums = [str(num*1), str(num*2), str(num*3), str(num*4), str(num*5), str(num*6), str(num*7), str(num*8), str(num*9), str(num*10), str(num*11), str(num*12)]
 
 
-
-for i in nums:
-    print(i)
+output = ""
+for i in range(0,1):
+    output = output + str(nums)
+print(output)
