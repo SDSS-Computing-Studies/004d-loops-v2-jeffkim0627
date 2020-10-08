@@ -27,8 +27,8 @@ name = input("Enter a name")
 
 for i in nameList:
     if name in nameList:
-        print("That is on the list")
+        print("That name is on the list")
         break
     else:
-        print("That is not on the list")
+        print("That name is not on the list")
         break
