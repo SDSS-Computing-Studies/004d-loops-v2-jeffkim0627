@@ -23,7 +23,7 @@ That name is on the list
 """
 
 nameList = ("Lebron","Kobe","Michale","Shaq","Dennis")
-name = input("Enter")
+name = input("")
 
 for i in nameList:
     if name in nameList:
