@@ -26,3 +26,5 @@ example:
 Enter a number: 4
 4! is 24
 """
+
+number = int(input("Enter a number"))
