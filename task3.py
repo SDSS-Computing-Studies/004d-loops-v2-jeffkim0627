@@ -21,7 +21,7 @@ import math
 numList = [25, 8, 10, 11, 33, 30, 51, 75, 63, 14, 20, 99]
 
 for i in numList:
-    if (int(numList) / 5) == (math.ceil(int(numList) / 5)):
+    if ((numList) / 5) == (math.ceil((numList) / 5)):
         print(i)
     else :
         break
