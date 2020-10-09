@@ -22,3 +22,14 @@ enter a number:4
 ****
 
 """
+import math
+
+width = int(input("Enter the width of a box: "))
+height = int(input("Enter the height of a box: "))
+output = "*"
+count = 0
+while (math.ceil(width/2)) == (width/2) and (math.ceil(height/2)) == (height/2) and width < 10 and height < 10:
+    output = output + str(width)
+while count < height:
+    print(output*width)
+    count = count + 1
