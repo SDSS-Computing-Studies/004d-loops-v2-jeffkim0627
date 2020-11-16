@@ -31,4 +31,6 @@ for i in nameList:
         break
     else:
         print("That name is not on the list")
-        break
+        name = input("")
+
+        

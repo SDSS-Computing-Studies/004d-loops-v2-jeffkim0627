@@ -28,9 +28,12 @@ width = int(input("Enter the width of a box: ").strip())
 height = int(input("Enter the height of a box: ").strip())
 output = "*"
 count = 0
-while (math.ceil(width/2)) == (width/2) and (math.ceil(height/2)) == (height/2) and width < 10 and height < 10:
-    output = output + str(width)
-while count < height:
-    print(output*width)
-    count = count + 1
+if width < 10 and height < 10:
+    while (math.ceil(width/2)) == (width/2) and (math.ceil(height/2)) == (height/2) and width < 10 and height < 10:
+        output = output + str(width)
+    while count < height:
+        print(output*width)
+        count = count + 1
+else:
+    print("Enter an integer value less than 10")
 
