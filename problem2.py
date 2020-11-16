@@ -27,7 +27,7 @@ Enter a number: 4
 4! is 24
 """
 
-number = input("Enter a number: ")
+number = input("")
 factorial = 1
 if int(number) >= 1:
     for i in range (1,int(number)+1):

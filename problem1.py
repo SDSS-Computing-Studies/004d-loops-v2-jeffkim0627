@@ -25,7 +25,7 @@ enter a number:4
 import math
 
 width = int(input("Enter the width of a box: ").strip())
-height = int(input("Enter the height of a box: ").strip())
+height = int(input("Enter the height of a box: "))
 output = "*"
 count = 0
 if width < 10 and height < 10:
